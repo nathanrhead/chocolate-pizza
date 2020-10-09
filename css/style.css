@@ -1,0 +1,30 @@
+body {
+  margin: auto;
+  /* width: 50%; */
+}
+
+header {
+  display: flex;
+  padding: 2% 10%;
+  border: 
+}
+
+#header {
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.3em;
+}
+
+#foodblog {
+  font-size: 10px;
+}
+
+#social-media {
+  /* justify-content: flex-end; */
+  /* float: right; */
+  margin-left: 470px;
+}
+
