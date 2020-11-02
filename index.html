@@ -7,14 +7,16 @@
 </head>
 <body>
   <header>
-      <div>
-        <img src="img/logo.png" alt="Icon of fork and knife">
+      <div id="header-left-side">
+        <div>
+          <img src="img/logo.png" alt="Icon of fork and knife">
+        </div>
+        <div id=header>
+          <h2><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">Delicious</h2>
+          <p id="foodblog">THE BEST FOOD BLOG ON THE WEB</p>
+        </div>
       </div>
-      <div id=header>
-        <h2><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">Delicious</h2>
-        <p id="foodblog">THE BEST FOOD BLOG ON THE WEB</p>
-      </div>
-      <div id="social-media">
+      <div id="header-right-side">
         <img src="img/fb-icon.png" alt="Facebook icon">
         <img src="img/twit-icon.png" alt="Twitter icon">
         <img src="img/gp-icon.png" alt="Google+ icon">
@@ -25,18 +27,21 @@
         <img src="img/mail-icon.png" alt="Email icon">
       </div>
   </header>
-  <div><img id="border" src="img/hr-img.png" alt="horizontal line">
-  </div>
+  <div class="border"></div>
   <main>
     <div id="main-header">
-    <div id="chocolate-header">
-    <h1 id="chocolate"><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">Chocolate Pizza</h1>
-    <p>POSTED ON 13 DEC 2013 / DESSERTS</p>
-    </div>
-    <div id="print">
-    <img src="img/print-icon.png" alt="Small printer icon">
-    <p>PRINT</p>
-    </div>
+     <div id="main-header-left">
+      <div id="chocolate-header">
+        <h1 id="chocolate"><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">Chocolate Pizza</h1>
+        <p>POSTED ON 13 DEC 2013 / DESSERTS</p>
+      </div>
+     </div>
+      <div id="main-header-right">
+        <div id="print">
+          <img src="img/print-icon.png" alt="Small printer icon">
+          <p id="print-text">PRINT</p>
+        </div>
+      </div>
     </div>
     <section id="choco-pizza">
       <img src="img/choco-pizza.png" alt="Picture of chocolate picture">
@@ -47,97 +52,112 @@
       <article>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instruction, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture and the nuts. Continue process for +/- 10 minutes. Pour semi.frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</article>
     </section>
     <section id="recipe">
-    <div id="checkboxes">
-    <div id="firstsix">
-      <div>
-        <label for="checkbox1">
-          <input type="checkbox">
-          1 1/2 cups milk
-        </label>   
+      <div id="checkboxes">
+        <div id="firstsix">
+          <div>
+            <label for="checkbox1">
+              <input type="checkbox">
+              1 1/2 cups milk
+            </label>   
+          </div>
+          <div>
+            <label for="checkbox2">
+              <input type="checkbox">
+              1/2 cup mascarpone
+            </label>
+          </div>
+          <div>
+            <label for="checkbox3">
+              <input type="checkbox">
+              1/2 tsp pink salt
+            </label>
+          </div>
+          <div>
+            <label for="checkobx4">
+              <input type="checkbox">
+              1lb Black Mission Figs
+            </label>
+          </div>
+          <div>
+            <label for="checkbox5">
+              <input type="checkbox">
+              1/2 cup brown sugar
+            </label>
+          </div>
+          <div>
+            <label for="checkbox6">
+              <input type="checkbox">
+              2 &ndash; 4 tbsp water
+            </label>
+          </div>
+        </div>
+        <div id="lastsix">
+          <div>
+            <label for="checkbox7">
+              <input type="checkbox">
+              1 1/2 cups heavy cream
+            </label>
+          </div>
+          <div>
+            <label for="checkbox8">
+              <input type="checkbox" checked>
+              <strike>1/3 cup granulated sugar</strike>
+            </label>
+          </div>
+          <div>
+            <label for="checkbox9">
+              <input type="checkbox" checked>
+              <strike>2 egg yolks></strike>
+            </label>
+          </div>
+          <div>
+            <label for="checkbox10">
+              <input type="checkbox">
+              1 lemon, juiced
+            </label>
+          </div>
+          <div>
+            <label for="checkbox11">
+              <input type="checkbox">
+              2 tbsp butter
+            </label>
+          </div>
+          <div>
+            <label for="checkbox12">
+              <input type="checkbox">
+              1 cup honey roasted pecans, roughly chopped
+            </label>
+          </div>
+        </div>
       </div>
-      <div>
-        <label for="checkbox2">
-          <input type="checkbox">
-          1/2 cup mascarpone
-        </label>
-      </div>
-      <div>
-        <label for="checkbox3">
-          <input type="checkbox">
-          1/2 tsp pink salt
-        </label>
-      </div>
-      <div>
-        <label for="checkobx4">
-          <input type="checkbox">
-          1lb Black Mission Figs
-        </label>
-      </div>
-      <div>
-        <label for="checkbox5">
-          <input type="checkbox">
-          1/2 cup brown sugar
-        </label>
-      </div>
-      <div>
-        <label for="checkbox6">
-          <input type="checkbox">
-          2 &ndash; 4 tbsp water
-        </label>
-      </div>
-    </div>
-    <div id="lastsix">
-      <div>
-        <label for="checkbox7">
-          <input type="checkbox">
-          1 1/2 cups heavy cream
-        </label>
-      </div>
-      <div>
-        <label for="checkbox8">
-          <input type="checkbox" checked>
-          <strike>1/3 cup granulated sugar</strike>
-        </label>
-      </div>
-      <div>
-        <label for="checkbox9">
-          <input type="checkbox" checked>
-          <strike>2 egg yolks></strike>
-        </label>
-      </div>
-      <div>
-        <label for="checkbox10">
-          <input type="checkbox">
-          1 lemon, juiced
-        </label>
-      </div>
-      <div>
-        <label for="checkbox11">
-          <input type="checkbox">
-          2 tbsp butter
-        </label>
-      </div>
-      <div>
-        <label for="checkbox12">
-          <input type="checkbox">
-          1 cup honey roasted pecans, roughly chopped
-        </label>
-      </div>
-    </div>
-    </div>
     <div id="background-pic">
-    <img src="img/list-bg.png" alt="Notebook paper background">
+      <img src="img/list-bg.png" alt="Notebook paper background">
     </div>
   </section>
+  <section class="border"></section>
   </main>
   <footer>
-    <img src="img/van-pic.png" alt="">
-    <h3>Vanessa Stevenson</h3>
-    <h4>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</h4>
-    <input type="button">SHARE RECEIPT</input>
-    <img src="img/small-logo.png" alt="">
-    <h5>Delicious &#169; 2013 &middot; All Rights Reserved.</h5>
-    <h5>Proudly published with Ghost.</h5>
+    <section id="footer-top">
+      <div id="footer-top-left">
+        <img src="img/van-pic.png" alt="">
+        <div id="footer-text">
+          <h3>Vanessa Stevenson</h3>
+          <h4>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</h4>
+        </div>
+      </div>
+      <button>SHARE RECIPE</button>
+    </section>
+    <section id="footer-bottom">
+      <div id="footer-bottom-left">
+        <hr>
+        <img src="img/small-logo.png" alt="">
+        <hr>
+      </div>
+      <div id="footer-bottom-right">
+        <h5>Delicious &#169; 2013 &middot; All Rights Reserved.</h5>
+        <h5>Proudly published with Ghost.</h5>
+      </div>
+    </section>
   </footer>
 </body>
 </html>
